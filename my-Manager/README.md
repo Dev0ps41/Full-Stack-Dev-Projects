@@ -30,7 +30,8 @@ npm install express mongoose dotenv body-parser cors\
 npm install --save-dev nodemon\
 
 
-
+https://github.com/Dev0ps41/Full-Stack-Dev-Projects/blob/main/my-Manager/01.jpg
+https://github.com/Dev0ps41/Full-Stack-Dev-Projects/blob/main/my-Manager/02.jpg
 
 <!---
 Dev0ps41/Dev0ps41 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

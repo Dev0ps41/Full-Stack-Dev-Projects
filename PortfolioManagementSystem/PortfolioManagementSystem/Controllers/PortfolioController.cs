@@ -11,7 +11,7 @@ namespace PortfolioManagementSystem.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize] // Enforce authentication for all endpoints
+    [Authorize] // Enforce authentication for all endpoints!
     public class PortfolioController : ControllerBase
     {
         private readonly PortfolioDbContext _context;

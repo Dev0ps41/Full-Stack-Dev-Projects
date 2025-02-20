@@ -1,0 +1,39 @@
+PortfolioManagment system
+✔️ Store & manage investment records in a SQL Server database.
+✔️ Provide API endpoints for retrieving, adding, and deleting investments.
+✔️ Use Entity Framework Core for seamless database management.
+✔️ Swagger UI for easy API testing.
+✔️ Future-proof design with authentication & stock data integration planned.
++ React.js Frontend + Tailwind css + Integrating Stock Market Data into the Portfolio Management System (free Alpha Vantage api)
+
+How It Works (Flow)
+1️. User enters investment details (ticker, shares, price, date).
+2️. React sends a POST request to /api/Portfolio/AddInvestment.
+3️. ASP.NET Core saves the data in the SQL Server database.
+4️. Response sent back confirming success or failure.
+
+
+Portfolio Management System (Backend) - Features & Functionality
+This ASP.NET Core Web API project serves as the backend for a Portfolio Management System, allowing users to manage their investments. It provides functionalities such as storing investments in a database, retrieving portfolio details, adding new investments, and deleting investments.
+
+1. Features of the Backend System
+ User Investment Management
+The API allows users to:
+ Add new investments (e.g., buying stocks).
+ Retrieve all investments for a specific user.
+ Delete an investment from the portfolio.
+ 
+2. Backend Architecture Overview
+The system follows a structured architecture using ASP.NET Core Web API with Entity Framework Core (EF Core) and SQL Server for data storage.
+
+ Technologies Used:
+
+ASP.NET Core Web API --> Backend framework
+Entity Framework Core --> ORM for database interaction
+SQL Server → Database storage
+Swagger → API testing interface
+JWT (Planned) → Secure authentication
+React.js Frontend + Tailwind css 
+Integrating Stock Market Data into the Portfolio Management System (free Alpha Vantage api)
+
+--------------------------------------------------------------------------------------------------------------------------------------
